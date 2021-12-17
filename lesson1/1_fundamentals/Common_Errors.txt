@@ -1,0 +1,56 @@
+- When accessing an array don't forget you are probably trying to get elements inside the array so make sure you include the square brackets with a number in it if you only want the particular element.
+	
+	XXX WRONG	echo "<p>" . $myArray . "</p>";
+	--- CORRECT	echo "<p>" . $myArray[0] . "</p>";
+
+
+
+- An if statement should be followed by curly brackets {} and not a semicolon ;
+
+	XXX WRONG	if($age === 30);
+	--- CORRECT	if($age === 30){
+				...
+			}
+
+
+
+- When creating arrays don't forget that every element must be separated by a comma (,). The last element should not have a comma after it.
+
+	XXX WRONG	$myArray = array("mon" "tue" "wed");
+	--- CORRECT	$myArray = array("mon", "tue", "wed");
+
+
+
+- Be careful with spaces when dealing with image src attributes as these spaces will be considered. This also applies when echoing images in with PHP but most people make the mistake here when concatenating strings together.
+ 
+	XXX WRONG	<img src=" img/ cat .png" />
+	--- CORRECT	<img src="img/cat.png" />
+
+	XXX WRONG	echo "<img src=' img/" . $cat . " .png' />";
+	--- CORRECT	echo "<img src='img/" . $cat . ".png' />";
+
+
+
+- When checking or comparing how many elements are in an array you must use the count() method. 
+
+	XXX WRONG	if( $myArray < 5 ) { ... }
+	--- CORRECT	if( count($myArray) < 5 ) { ... }
+
+
+
+- Always double check that you are working on the correct file (have the correct file open in your text editor) and that you are looking at the correct file in the browser. Sublime Text tells you what file is open at the very top so when you are using PHP make sure that WAMP is at the start of the file and not something like Desktop.
+
+
+
+- When you are echoing out a TABLE or UL or OL that will have a lot of repeating elements in it like TR and LI be extra careful of what you have and repeat in your loop and what you should not repeat in your loop. For instance the <table> tag should only appear once and therefore should not be in the loop at all.
+
+
+
+
+- When using a for loop to loop through an array make sure to use count($myArray) and not just a specific number. It is safer and more robust this way.
+
+	XXX WRONG	for($i=0; $i<10; $i += 1) { ... }
+	--- CORRECT	for($i=0; $i<count($myArray); $i += 1) { ... }
+
+
+

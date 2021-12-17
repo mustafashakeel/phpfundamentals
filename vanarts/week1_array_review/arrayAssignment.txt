@@ -1,0 +1,26 @@
+####Task 1 4pt
+# create an indexed array of locations
+# output the locations in a debug format
+#output the locations as a list (just each entry on new lines)
+#output the locations again, but as a list (bulleted html list)
+
+####Task 2 4pt
+#create an associative array of movies and their associated year of release
+#create a heading called, "Movie Titles"
+#output a list of movies and the release year. 
+#make the title of the movie bold
+
+####Task 3 6pt
+#make an multi-dimensional array of movies
+#each movie will have, year, stars, and coverImage
+#output into html (maybe a div or so...) the movie cover image, the name, the number of stars, and year released. 
+#style using css the divs such that they are side by side column cards (make them look nice and presentable)
+#at the top of the page, add a header called, "Movies"
+#beside the header "Movies" output how many movies are in your listing (using a php array function that will tell you this number)
+
+####Task 4 4pt
+#using the array below, output the comment that Sam had for the waterfall picture. (you must use the direct access method echo $array["something"])
+
+$arrPhotos = array(array("name"=>"mountains","arrComments"=>array(array("username"=>"Nathan", "comment"=>"love your site", "date"=>"yesterday"),	array("username"=>"Bob", "comment"=>"this is fun", "date"=>"two days ago"))),array("name"=>"waterfall","arrComments"=>array(array("username"=>"Sam", "comment"=>"amazing photo", "date"=>"yesterday"))));
+
+AND THE student nicely layed out photo, name, email, location array assignment. 

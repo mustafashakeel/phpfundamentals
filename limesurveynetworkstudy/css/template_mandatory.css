@@ -1,0 +1,29 @@
+/* SH - for analogues scales */
+.ui-slider-horizontal .ui-slider-handle
+{
+	/* SH: Enlarge the slider handle: */
+	height: 2.0em;
+	/* Make the slider handle invisible: */
+	width: 0.0em;
+	
+	vertical-align: top;
+	/* SH: Adapt to enlarged slider handle: */
+	top: -0.8em;
+	margin-left: -0.6em;
+}
+
+.multinum-slider .ui-state-default {
+	background: none #2F5376;
+	/*SH */
+	border:0px solid #2F5376;
+}
+
+.multinum-slider .ui-widget-content {
+	/* SH: Make the slider line visible: */
+	background-color: #E9E9E9;
+	border: 1px solid #2F5376;
+}
+
+.numeric-multi div.multinum-slider .slider_callout {
+	font-size:0pt;
+}

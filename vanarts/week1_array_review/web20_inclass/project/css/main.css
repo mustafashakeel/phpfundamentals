@@ -1,0 +1,33 @@
+* {box-sizing: border-box; margin: 0px;}
+
+body {
+    background-image: url("../imgs/diverlargefade.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+
+.hero {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    height: 500px;
+    align-items: center;
+}
+
+.hero h1, .hero h2 {
+    color: #fff
+}
+
+.gallery {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery .item {
+    width: 33.33%;
+    float: left;
+    text-align: center
+}
+
+

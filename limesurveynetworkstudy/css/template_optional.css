@@ -1,0 +1,234 @@
+#answers {
+  margin: 0;
+  width: 90%;
+  /* SH - I prefer left-aligned input fields:*/
+  text-align:left;
+}
+
+.choice-5-pt-radio .answers ul,.list-radio-flexible .answers ul,.list-radio .answers ul,.list-with-comment .answers ul,.multiple-opt .answers ul,.multiple-opt-comments .answers ul,.multiple-short-txt .answers ul,.numeric-multi .answers ul,.yes-no .answers ul,.gender .answers ul
+  {
+  margin-left: 0;margin-right:auto;  /* SH */
+  padding-left: 0;padding-right:0;
+  /* SH */
+  width:100%;
+}
+
+.choice-5-pt-radio .answers li,.list-radio-flexible .answers li,.list-radio .answers li,.list-with-comment .answers li,.multiple-opt .answers li,.multiple-opt-comments .answers li,.multiple-short-txt .answers li,.numeric-multi .answers li,.yes-no .answers li,.gender .answers li
+  {
+  list-style-type: none;
+  text-align: left;
+  margin: 0 0 0.3em 0.5em;
+  /* SH */
+  width:100%;
+}
+
+.choice-5-pt-radio .answers li,.list-radio-flexible .answers li,.yes-no .answers li,.gender .answers li
+  {
+  margin-left: 2em;margin-right:0;
+  text-indent: -1.7em;
+  /* SH */
+  width:100%;
+}
+
+/* SH */
+.numeric input,.text-short input,.text-long textarea,.text-huge textarea
+  {
+  margin-left: 0px;
+}
+
+div.answers table {
+	/* SH */
+  margin: 0 auto 0 30px;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+
+#index {
+  position: absolute;
+  right: 0;
+  /* SH: */
+  width: 25em;
+  top: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 20px;
+  background: #E9E9E9;
+  border-left: 1px solid #000;
+}
+
+/* <-- nicer color for error messages: */
+div.em_q_fn_validation.error {
+	/* SH */
+  color: red;
+}
+
+div.em_sq_fn_validation.error {
+	/* SH */
+  color: red;
+}
+
+div.em_other_comment_mandatory.error {
+  	/* SH */
+  color: red;
+  display: block;
+}
+
+input.em_sq_validation.error, textarea.em_sq_validation.error {
+  color: black;
+  /** SH **/
+  background-color: #FF9999;
+}
+/* --> */
+
+/** SH **/
+
+#groupdescription em {
+	font-weight:bold;
+	font-style: italic;
+}
+
+.survey-name {
+  padding-left: 30px;
+  text-align: left;
+}
+
+.survey-name p{
+ 	text-align: left;
+	max-width: 500px;
+}
+
+.welcome-text {
+	padding-top:25px;
+}
+
+.welcome-text p{
+    margin-bottom:20px;
+  	font-weight:normal;
+}
+
+.welcome-text p strong{
+    margin-bottom:20px;
+  	font-weight:bold;
+}
+
+#groupdescription strong{
+  	font-weight:bold;
+}
+
+.survey-description {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.8em;
+	margin:6px 0;
+}
+
+li {
+  margin-left: 20px;
+}
+
+.asterisk {
+  color: grey;
+  font-size: 9pt;
+  font-family: verdana;
+  padding-right:1em;
+}
+
+#groupdescription {
+  margin: 3%;
+  /*color: #777777;*/
+}
+
+#groupdescription li, #groupdescription p{
+  line-height: 140%;
+  padding-top: 10px;
+}
+
+.equation {
+ display:none; 
+}
+	
+
+div#group-0 .text-item, div#group-1 .text-item , div#group-2 .text-item, div#group-3 .text-item {
+	background-color:  #e9e9e9;
+}
+
+
+div#group-0 div.question, div#group-1 div.question, div#group-2 div.question, div#group-3 div.question, div#group-4 div.question {
+  background-color:  #e9e9e9;
+  border:none;
+  padding-top: 0px;
+  padding-bottom:0px;
+ 
+  width: 60%;
+  margin-top:0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+div#group-0 div.question div.questiontext, div#group-1 div.question div.questiontext, div#group-2 div.question div.questiontext, div#group-3 div.question div.questiontext{
+  height:20px;
+  margin-left: 33px;
+  font-size:0px;
+}
+
+
+.em_q_fn_validation.good {
+	display:none; 
+}
+
+/* Line 130 */
+table.question
+{
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #aaaaaa;
+  border-right-color: #aaaaaa;
+  border-bottom-color: #aaaaaa;
+  border-left-color: #aaaaaa;
+  border-image-source: none;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-width: 1 1 1 1;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Line 540 */
+.choice-5-pt-radio .answer ul, .yes-no .answer ul, .gender .answer ul
+{
+  text-align: left;
+  margin-left: 0%;
+  padding-left: 0%;
+}
+
+div.question div.questiontext b {
+  color: #236264;
+}
+
+div.answers td  {
+  /* background-color:blue; */
+  width:730px;
+}
+
+div.answers table table{
+	/* SH */
+  margin: 0 auto 0 0px;
+}
+
+.multiple-opt .answers li li{
+	/* SH */
+  list-style-type: disc;
+  margin-left: 15px;
+}
+
+.multiple-opt .answers ul{
+	/* SH */
+  padding-bottom: 10px;
+}
